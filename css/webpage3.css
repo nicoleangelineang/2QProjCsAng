@@ -1,0 +1,233 @@
+p, li{
+    font-size: 20px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    background-color: rgb(6, 20, 39);
+    box-sizing: border-box;
+    overflow-x:hidden;
+    width: 100%;
+    z-index: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    position: fixed;
+    box-sizing: border-box;
+    width: 1520px;
+    height:40px;
+    background-color: rgb(6, 20, 39);
+    z-index: 10000000;
+}
+nav{
+    position:fixed;
+    overflow:scroll;
+    overflow-x: hidden;
+    box-sizing:border-box;
+    background-color: rgb(170, 14, 58);
+    width: 30%;
+    height: 710px;
+    margin: 0px;
+    float:left;
+    z-index: 50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav>section>header{
+    position: relative;
+    float: right;
+    background-color: rgb(170, 14, 58);
+    color: rgb(6,20,38);
+    font-style: bold;
+    padding: 0px 20px;
+    top: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 3vw;
+    width: 100%
+}
+nav>section>h2{
+    width: 90%;
+    position: relative;
+    text-align: right;
+    float: right;
+    clear:right;
+    font-size: 2vw;
+    padding: 10px 20px;
+    color: whitesmoke;
+    background-color: rgb(119, 0, 40);
+    margin: 10px 0px 5px;
+    font-style: italic;
+    
+}
+nav>section>a{
+    position: relative;
+    text-align: right;
+    float: right;
+    font-family: Calibri;
+}
+nav>section>a:link{
+    width: 100%;
+    clear: right;
+    position: relative;
+    float: right;
+    text-align: right;
+    font-family: Calibri;
+    text-decoration: underline;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(6, 20, 39); 
+    padding: 10px;
+    font-size: 1.5vw;
+    margin: -10px 0px 5px;
+}
+nav>section>a:hover{
+    color: lightpink;
+}   
+
+nav>section>a:visited{
+    color: mediumslateblue;
+}   
+
+nav>section>div#hr{
+    clear: right;
+    float:right;
+    height:2px;
+    background-color: rgb(6, 20, 39);
+    
+}
+nav>article{
+    width: 100%;
+    position: relative;
+    clear:right;
+    margin: 50px 0px 0px;
+    height: max-content;
+    padding: 5px;
+    color:rgb(250, 211, 218)
+    
+}
+
+nav>article>h3{
+    background-color: rgb(119, 0, 40);
+    height: max-content;
+    padding: 5px;
+    color:rgb(250, 211, 218);
+    font-size: 1.5vw;
+}
+nav>article>p{
+    margin: 1vw;
+    color: white;
+    width: 90%;
+}
+main{
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+    height: max-content;
+    overflow:auto;
+    width: 100%;
+    padding-left: 30%;
+    margin:auto;
+}
+div#title>h1{
+    float:left;
+    position: relative;
+    text-align: left;
+    margin: 20px 50px 0px;
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 100%;
+    padding-left: 30%;
+}
+div#title>h3{
+    float:right;
+    clear: left;
+    text-align: right;
+    position: relative;
+    margin: 0px 30px 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(228, 20, 79);
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+}
+div#title>div.banner{
+        margin: 0px;
+        position:absolute;
+        z-index: 10;
+        width:100%;
+        padding-left: 30%;
+}
+
+main>article>p{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+main>article>h3{
+    font-size: 30px;
+    color: lightseagreen;
+    font-weight: bold;
+    text-align: center;
+}
+main>article>table{
+    background-color: rgb(28, 40, 58);
+    margin: auto;
+    
+}
+main>article>table td{
+    padding:5px;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    border-bottom: solid;
+    border-color: white;
+    font-size:2vw;
+
+}
+main>article>table a{
+    padding:5px;
+    color: lightseagreen;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 2vw;
+}
+main>article#cryptostart,article#coloredcoinsstart,article#counterpartystart,article#cryptopunkstart,article#kittiesstart,article#nftstart{
+    padding:10px 4vw;
+}
+main>article#cryptostart>section{
+
+    
+}
+main>article h4{
+    color:rgb(228, 20, 79);
+    font-size: 3vw;
+    text-align: left;
+}
+main>article>section>p{
+    color: white;
+}
+main>article#cryptostart>section>h5{
+    margin: 0px;
+}
+main>article#coloredcoinsstart>section>h5{
+    border-top: solid;
+    border-bottom: solid;
+    margin: 0px 0px;
+    padding: 10px 0px;
+}
+main>article#counterpartystart>section>h5:last-child{
+    border-top: solid;
+    border-bottom: solid;
+    margin: 0px 0px;
+    padding: 10px 0px;
+}
+main>article#counterpartystart>section{
+    border-left: solid;
+    border-color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+}
